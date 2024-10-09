@@ -101,7 +101,7 @@ After running the classification models, the project provides insights into:
 
 Most important features influencing credit scores, such as income level and employment history.
 Best-performing model: For example, Random Forest or XGBoost may outperform simpler models like Logistic Regression.
-Accuracy: The model achieves an overall accuracy of** 100%** (replace this with actual results).
+Accuracy: The model achieves an overall accuracy of  **100% ** (replace this with actual results).
 Recommendations: Insights on how to further improve the model or refine predictions, such as incorporating additional financial metrics.
 
 **Future Work**
