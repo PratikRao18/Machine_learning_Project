@@ -16,8 +16,11 @@ Optimize the selected model using hyperparameter tuning.
 The dataset includes a variety of features relevant to credit scoring:
 
 **Demographic Features:** Age, gender, income levels, employment status, etc.
+
 **Financial History:** Number of past loans, loan amounts, repayment status, and any history of defaults.
+
 **Target Variable:** Credit Score (classified into categories like "Poor," "Fair," "Good").
+
 The dataset may contain missing values and noisy data that need to be cleaned for effective modeling.
 
 **Project Workflow**
@@ -31,7 +34,9 @@ Data transformation: Ensuring numerical and categorical variables are formatted 
 EDA is carried out to uncover relationships between the features and the target variable:
 
 **Visualization of distributions:** Analyzing how different features like income, age, and employment status are distributed across the credit score categories.
+
 **Correlation matrix:** Identifying which features are most correlated with the credit score.
+
 **Feature importance:** Using visualization to highlight the key factors affecting credit scores.
 
 **3. Feature Engineering**
@@ -46,10 +51,15 @@ Encoding categorical variables using one-hot encoding or label encoding to make 
 Multiple machine learning models are implemented and compared to find the best-performing classifier:
 
 **Logistic Regression:** A basic model for binary classification.
+
 **Decision Trees:** To capture non-linear relationships between features.
+
 **Random Forest:** An ensemble method that improves on decision trees by reducing overfitting.
+
 **Support Vector Machines (SVM):** A powerful model for classification tasks.
+
 **Gradient Boosting Models (XGBoost, LightGBM):** These models often yield high accuracy in classification problems.
+
 Each model is evaluated based on metrics like accuracy, precision, recall, and F1-score.
 
 **5. Model Evaluation**
@@ -57,9 +67,12 @@ Each model is evaluated based on metrics like accuracy, precision, recall, and F
 The performance of each model is evaluated using:
 
 **Confusion Matrix:** To get detailed insights into the model's performance on each credit score category.
+
 **Classification Report**: To understand metrics like precision, recall, and F1-score across different categories.
+
 ****Cross-validation:** **To assess model stability and avoid overfitting.
-****Hyperparameter tuning: ****Using techniques like GridSearchCV to optimize the parameters of the best-performing model.
+
+**Hyperparameter tuning:** Using techniques like GridSearchCV to optimize the parameters of the best-performing model.
 
 **6. Model Deployment (Optional)**
 
