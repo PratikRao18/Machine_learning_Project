@@ -109,7 +109,9 @@ Recommendations: Insights on how to further improve the model or refine predicti
 The project can be extended in several ways:
 
 **Improve feature engineering**: Adding domain-specific features like credit utilization ratios.
+
 **Model ensemble:** Combining multiple models to improve performance.
+
 **Time-series analysis:** Incorporating temporal data like changes in income over time.
 
 
