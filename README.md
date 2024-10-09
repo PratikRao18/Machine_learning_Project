@@ -70,7 +70,7 @@ The performance of each model is evaluated using:
 
 **Classification Report**: To understand metrics like precision, recall, and F1-score across different categories.
 
-****Cross-validation:** **To assess model stability and avoid overfitting.
+**Cross-validation:** To assess model stability and avoid overfitting.
 
 **Hyperparameter tuning:** Using techniques like GridSearchCV to optimize the parameters of the best-performing model.
 
