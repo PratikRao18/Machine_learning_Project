@@ -1,5 +1,6 @@
 
 **Credit Score Classification**
+
 <br>
 **Overview**
 This project involves building a Credit Score Classification model to predict an individual's credit score based on multiple factors like their financial and demographic information. Credit scoring helps financial institutions gauge the likelihood that a customer will repay a loan. The focus of this project is on using machine learning techniques to classify individuals into different credit score categories, such as "Poor," "Fair," or "Good," based on their input data.
